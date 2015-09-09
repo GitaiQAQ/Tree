@@ -19,21 +19,21 @@
 
 #include "tree.h"
 
-static char *version ="$Version: $ tree v1.7.0 (c) 1996 - 2014 by Steve Baker, Thomas Moore, Francesc Rocher, Florian Sesser, Kyosuke Tokoro $";
-static char *hversion="\t\t tree v1.7.0 %s 1996 - 2014 by Steve Baker and Thomas Moore <br>\n"
+static char *version ="$Version: $ tree v1.7.0 (c) 1996 - 2015 by Steve Baker, Thomas Moore, Francesc Rocher, Florian Sesser, Kyosuke Tokoro $";
+static char *hversion="\t\t tree v1.7.0 %s 1996 - 2015 by Steve Baker and Thomas Moore <br>\n"
 		      "\t\t HTML output hacked and copyleft %s 1998 by Francesc Rocher <br>\n"
 		      "\t\t JSON output hacked and copyleft %s 2014 by Florian Sesser <br>\n"
-		      "\t\t Markdown output hacked and copyleft %s 2015 by dphdjy <br>\n"
+		      "\t\t Markdown output hacked and copyleft %s 2015 by Dphdjy <br>\n"
 		      "\t\t Charsets / OS/2 support %s 2001 by Kyosuke Tokoro\n";
 static char *hversion_noframework="\t tree v1.7.0 %s 1996 - 2014 by Steve Baker and Thomas Moore <br>\n"
 		      "\t HTML output hacked and copyleft %s 1998 by Francesc Rocher <br>\n"
 		      "\t JSON output hacked and copyleft %s 2014 by Florian Sesser <br>\n"
-		      "\t Markdown output hacked and copyleft %s 2015 by dphdjy <br>\n"
+		      "\t Markdown output hacked and copyleft %s 2015 by Dphdjy <br>\n"
 		      "\t Charsets / OS/2 support %s 2001 by Kyosuke Tokoro\n";
 static char *hversion_md="> tree v1.7.0 %s 1996 - 2014 by Steve Baker and Thomas Moore    \n"
 		      "> HTML output hacked and copyleft %s 1998 by Francesc Rocher    \n"
 		      "> JSON output hacked and copyleft %s 2014 by Florian Sesser    \n"
-		      "> Markdown output hacked and copyleft %s 2015 by dphdjy     \n"
+		      "> Markdown output hacked and copyleft %s 2015 by Dphdjy     \n"
 		      "> Charsets / OS/2 support %s 2001 by Kyosuke Tokoro        \n\n";
 
 /* Globals */
