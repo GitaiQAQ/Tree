@@ -34,6 +34,11 @@ $ tree
 └── xml.c
 ```
 
+## Change
+
+- Added Markdown output(-M)
+- Added options --noframework
+- Rewrite options --nolinks
 
 ## README
 Please read the INSTALL file for installation instructions, particularly if
@@ -56,12 +61,6 @@ formatted. Feel free to suggest modifications and additions.
 
 Thanks go out so the following people who have helped bring tree to the
 pinnacle of perfection that it is: ;)
-
-Dphdjy
-
-  - Added Markdown output(-M)
-  - Added options --noframework
-  - Rewrite options --nolinks
 
 Francesc Rocher
   - Added HTML output (-H).
